@@ -1,6 +1,5 @@
 yum update -y
 yum install -y zlib-devel bzip2 bzip2-devel readline-devel sqlite sqlite-devel openssl-devel xz xz-devel libffi-devel
-yum install -y make.x86_64 gcc gcc-c++ zlib zlib-devel openssl-devel
 wget https://www.python.org/ftp/python/3.9.18/Python-3.9.18.tgz
 tar -zxvf Python-3.9.18.tgz
 mkdir -p /usr/local/python3
