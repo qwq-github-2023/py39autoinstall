@@ -4,7 +4,7 @@ wget https://www.python.org/ftp/python/3.9.18/Python-3.9.18.tgz
 tar -zxvf Python-3.9.18.tgz
 mkdir -p /usr/local/python3
 cd Python-3.9.18
-./configure --prefix=/usr/local/python3 --with-openssl=/usr/local/openssl
+./configure --prefix=/usr/local/python3 --with-openssl=/usr/bin/openssl
 make -j4
 make install
 echo "export PATH=\$PATH:/usr/local/python3/bin" >> /etc/bashrc && source /etc/bashrc
